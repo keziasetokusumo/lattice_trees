@@ -8,6 +8,7 @@ Concept:
 - The binomial model assumes that the underlying asset's price can increase or decrease each time step until the option expires.
 It constructs a binomial tree in which each node represents a possible asset price at a particular time.
 - At each node, the price can move up by a factor 𝑢 or down by a factor 𝑑.
+
 Model Construction:
 - Start at the current price of the asset.
 - For each time step, calculate the possible future prices based on the up and down factors 𝑢 and 𝑑.
@@ -18,6 +19,7 @@ Model Construction:
 Concept:
 - The trinomial model extends the binomial model by allowing for three possible asset price movements at each time step: up, down, or stay the same.
 - Like the binomial model, it constructs a tree of possible asset prices over time.
+
 Model Construction:
 - Similar to the binomial model but with an additional state (staying the same) at each time step.
 - The trinomial tree has more nodes than the binomial tree, providing potentially more accurate price estimations.
